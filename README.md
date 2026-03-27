@@ -2,12 +2,13 @@
 
 > AI智能砍价助手 - 让每一次议价都更有感染力！
 >
-> 分析购物车，找到最合适砍价的商品
-> <img width="831" height="239" alt="Clipboard_Screenshot_1774629893" src="https://github.com/user-attachments/assets/4ffb2413-f94d-4fb4-ad9d-4bf338a8b715" />
-> 设计话术
-<img width="833" height="290" alt="Clipboard_Screenshot_1774629922" src="https://github.com/user-attachments/assets/f4102370-e8d3-4356-ade5-c0c95ee521a5" />发送消息沟通
-> <img width="642" height="248" alt="Clipboard_Screenshot_1774629980" src="https://github.com/user-attachments/assets/976d9642-b866-4bd6-8850-8dac69cbc8d5" />
-> 放入清单进行下一步沟通
+分析购物车，找到最合适砍价的商品
+ <img width="831" height="239" alt="Clipboard_Screenshot_1774629893" src="https://github.com/user-attachments/assets/4ffb2413-f94d-4fb4-ad9d-4bf338a8b715" />
+ 设计话术
+<img width="833" height="290" alt="Clipboard_Screenshot_1774629922" src="https://github.com/user-attachments/assets/f4102370-e8d3-4356-ade5-c0c95ee521a5" />
+发送消息沟通
+ <img width="642" height="248" alt="Clipboard_Screenshot_1774629980" src="https://github.com/user-attachments/assets/976d9642-b866-4bd6-8850-8dac69cbc8d5" />
+ 放入清单进行下一步沟通
 <img width="843" height="169" alt="Clipboard_Screenshot_1774629942" src="https://github.com/user-attachments/assets/1fddc3d2-651f-435f-b0d6-9cc07701d8a2" />
 
 
