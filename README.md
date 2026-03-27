@@ -1,25 +1,52 @@
-# 🛒 爱砍价 (AI Negotiator)
+# 🛒 爱砍价 (AI Haggler)
 
 > AI智能砍价助手 - 让每一次议价都更有感染力！
->
+
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/likaku/ai-kanjia/blob/main/LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
+[![GitHub Stars](https://img.shields.io/github/stars/likaku/ai-kanjia?style=social)](https://github.com/likaku/ai-kanjia)
+
+---
+
+## 🚀 工作流程
+
 分析购物车，找到最合适砍价的商品
- <img width="831" height="239" alt="Clipboard_Screenshot_1774629893" src="https://github.com/user-attachments/assets/4ffb2413-f94d-4fb4-ad9d-4bf338a8b715" />
- 设计话术
+
+<img width="831" height="239" alt="Clipboard_Screenshot_1774629893" src="https://github.com/user-attachments/assets/4ffb2413-f94d-4fb4-ad9d-4bf338a8b715" />
+
+设计话术
+
 <img width="833" height="290" alt="Clipboard_Screenshot_1774629922" src="https://github.com/user-attachments/assets/f4102370-e8d3-4356-ade5-c0c95ee521a5" />
+
 发送消息沟通
- <img width="642" height="248" alt="Clipboard_Screenshot_1774629980" src="https://github.com/user-attachments/assets/976d9642-b866-4bd6-8850-8dac69cbc8d5" />
- 放入清单进行下一步沟通
+
+<img width="642" height="248" alt="Clipboard_Screenshot_1774629980" src="https://github.com/user-attachments/assets/976d9642-b866-4bd6-8850-8dac69cbc8d5" />
+
+放入清单进行下一步沟通
+
 <img width="843" height="169" alt="Clipboard_Screenshot_1774629942" src="https://github.com/user-attachments/assets/1fddc3d2-651f-435f-b0d6-9cc07701d8a2" />
 
+---
 
+## ✨ 核心功能
 
-## ✨ 功能特点
+<p align="center">
+  <img src="https://img.shields.io/badge/🔍-价格监控-FF6B6B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/💰-竞品比价-4ECDC4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎫-优惠券检测-FFE66D?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/💬-旺旺议价-95E1D3?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎭-马云体话术-F38181?style=for-the-badge" />
+</p>
 
-- 🔍 **价格监控** - 追踪购物车/收藏夹商品价格变化
-- 💰 **竞品比价** - 全网同款商品历史最低价抓取
-- 🎫 **优惠券检测** - 监测店铺隐藏优惠券/老客价
-- 💬 **旺旺议价** - 自动发送证据化议价话术
-- 🎭 **马云体话术** - 反问句多、感叹句多、口语化
+| 功能 | 说明 |
+|:---|:---|
+| 🔍 **价格监控** | 追踪购物车/收藏夹商品价格变化 |
+| 💰 **竞品比价** | 全网同款商品历史最低价抓取 |
+| 🎫 **优惠券检测** | 监测店铺隐藏优惠券/老客价 |
+| 💬 **旺旺议价** | 自动发送证据化议价话术 |
+| 🎭 **马云体话术** | 反问+感叹+口语化，更有感染力 |
+
+---
 
 ## 📦 安装
 
@@ -28,10 +55,15 @@
 git clone https://github.com/likaku/ai-kanjia.git
 
 # 安装依赖
+cd ai-kanjia
 pip install -r requirements.txt
 ```
 
+---
+
 ## 💬 话术示例
+
+### 马云体风格
 
 ```
 老板！跟您说句心里话——
@@ -49,89 +81,125 @@ pip install -r requirements.txt
 您看，这事儿能不能成？
 ```
 
-## 📁 文件结构
+### 适用场景
+
+| 场景 | 示例 |
+|:---|:---|
+| 🏷️ **发现同款低价** | "我看到XX平台才卖XX元，能匹配吗？" |
+| 👴 **老客户议价** | "我收藏了两次了，能给个老客价吗？" |
+| 📦 **批量采购** | "我要买3份，批发价能多少？" |
+| ⏰ **限时紧迫** | "今天活动最后一天，能再优惠吗？" |
+
+---
+
+## 📁 项目结构
 
 ```
 ai-kanjia/
-├── SKILL.md                    # Skill核心定义
+├── SKILL.md                      # Skill 核心定义
+├── README.md                     # 项目说明文档
+├── requirements.txt               # Python 依赖
 ├── references/
-│   └── talk_tracks.md         # 马云体话术模板库
+│   └── talk_tracks.md           # 马云体话术模板库
 └── scripts/
-    ├── price_monitor.py       # 价格监控脚本
-    └── log_negotiation.py     # 议价记录脚本
+    ├── price_monitor.py         # 价格监控脚本
+    └── log_negotiation.py       # 议价记录脚本
 ```
+
+---
 
 ## 🚀 产品路线图
 
 | 版本 | 阶段 | 核心能力 |
-|------|------|---------|
-| **v1.0** | ✅ 已上线 | 话术驱动的旺旺议价（马云体） |
-| **v1.5** | 🔜 规划中 | 跨平台电商整合（拼多多、京东等） |
-| **v2.0** | 🔜 规划中 | Clean Sheet 成本拆解分析 |
-| **v2.5** | 🔜 规划中 | 上下游供应链分析 |
-| **v3.0** | 🔜 规划中 | Kraljic 矩阵策略分类 |
-| **v3.5** | 🔜 规划中 | AI Agent 全自动深度议价 |
+|:---|:---:|:---|
+| **v1.0** | ✅ | 话术驱动的旺旺议价（马云体） |
+| **v1.5** | 🔜 | 跨平台电商整合（拼多多/京东/抖音） |
+| **v2.0** | 🔜 | Clean Sheet 成本拆解分析 |
+| **v2.5** | 🔜 | 上下游供应链分析 |
+| **v3.0** | 🔜 | Kraljic 矩阵策略分类 |
+| **v3.5** | 🔜 | AI Agent 全自动深度议价 |
 
-### v1.5: 跨平台电商整合
-
-在v1.0和v2.0之间，增加跨平台比价能力：
+### v1.5 跨平台覆盖
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    跨平台电商整合                            │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  平台覆盖:                                                   │
-│  ├── ✅ 淘宝/天猫 (已上线)                                   │
-│  ├── 🔜 拼多多 (Pinduoduo)                                  │
-│  ├── 🔜 京东 (JD.com)                                       │
-│  ├── 🔜 抖音/快手 (直播电商)                                │
-│  └── 🔜 唯品会 (品牌特卖)                                   │
-│                                                             │
-│  核心能力:                                                   │
-│  ├── 🔍 多平台同款商品价格抓取                               │
-│  ├── 📊 全网历史最低价追踪                                   │
-│  ├── ⚖️ 跨平台比价分析报告                                   │
-│  └── 💬 各平台最优话术适配                                    │
-│                                                             │
-│  自动化路径:                                                 │
-│  输入商品链接 → 多平台抓取 → 生成比价报告 → 选择最优渠道议价  │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│   ✅ 淘宝/天猫        🔜 拼多多         🔜 京东          │
+│                                                         │
+│   🔜 抖音/快手        🔜 唯品会         🔜 ...         │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
 ```
 
-### v2.0+: 从"语言"到"分析"
-
-未来Agent不再只是"语言上的讨价还价"，而是深入商品本质：
+### v2.0+ Clean Sheet 成本拆解
 
 ```
-商品零售价 = 原材料成本 + 加工成本 + 物流成本 + 营销费用 + 品牌溢价 + 利润
+商品零售价 = 原材料成本 + 加工成本 + 物流成本
+           + 营销费用 + 品牌溢价 + 利润空间
+
+原材料成本 = 大宗商品价格 × 用量 × 损耗率
 ```
 
-**核心分析维度**：
-- 🏭 **Clean Sheet**: 大宗商品价格 × 用量 = 原材料成本
-- 📈 **周期分析**: 原材料价格与成品价的传导关系
-- 🔗 **上下游**: 供应链利润分配分析
-- 📊 **Kraljic**: 战略型/杠杆型/瓶颈型/routine 分类策略
+| 分析维度 | 说明 |
+|:---|:---|
+| 🏭 **Clean Sheet** | 大宗商品价格 → 原材料成本估算 |
+| 📈 **周期分析** | 原材料价格与成品价的传导关系 |
+| 🔗 **上下游** | 供应链利润分配分析 |
+| 📊 **Kraljic** | 战略型/杠杆型/瓶颈型/routine 分类 |
 
-### 典型节省预估
+---
 
-| 版本 | 单次议价节省 | 年化节省（按10次/月） |
-|------|------------|---------------------|
+## 💰 预期收益
+
+| 版本 | 单次议价节省 | 年化节省（按10次/月）|
+|:---|:---:|:---:|
 | v1.0 | ¥5-30 | ¥600-3,600 |
 | v1.5 | ¥10-50 | ¥1,200-6,000 |
 | v2.0+ | ¥30-100 | ¥3,600-12,000 |
 
-## 🎯 使用场景
+---
 
-- v1.0: 网购前发现同款更低价、购物车议价、老客户优惠
-- v1.5: 跨平台比价、多平台历史最低价追踪、全网最优渠道选择
-- v2.0+: 大额采购分析、成本底线计算、战略采购协议
+## 🎯 使用流程
 
-## 📝 License
-
-MIT License
+```
+输入商品链接
+     │
+     ▼
+┌─────────────┐
+│ 1. 价格抓取  │ ──→ 全网同款历史最低价
+└─────────────┘
+     │
+     ▼
+┌─────────────┐
+│ 2. 优惠检测  │ ──→ 隐藏优惠券/老客价
+└─────────────┘
+     │
+     ▼
+┌─────────────┐
+│ 3. 话术生成  │ ──→ 马云体风格定制
+└─────────────┘
+     │
+     ▼
+┌─────────────┐
+│ 4. 旺旺发送  │ ──→ 自动发送议价消息
+└─────────────┘
+     │
+     ▼
+  📊 预估节省 ¥10-30
+```
 
 ---
 
-Made with ❤️ by [kaku](https://github.com/likaku)
+## 📜 License
+
+MIT License - 永久免费开源
+
+---
+
+<div align="center">
+
+**Made with ❤️ by [kaku](https://github.com/likaku)**
+
+⭐ Star this repo if you find it helpful!
+
+</div>
