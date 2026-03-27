@@ -10,12 +10,14 @@
 - 💬 **旺旺议价** - 自动发送证据化议价话术
 - 🎭 **马云体话术** - 反问句多、感叹句多、口语化
 
-## 📦 Skill 安装
-
-将本仓库添加到 WorkBuddy Skills 目录：
+## 📦 安装
 
 ```bash
-ln -s /path/to/ai-kanjia ~/.workbuddy/skills/爱砍价
+# 克隆仓库
+git clone https://github.com/likaku/ai-kanjia.git
+
+# 安装依赖
+pip install -r requirements.txt
 ```
 
 ## 💬 话术示例
