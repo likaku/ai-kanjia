@@ -52,7 +52,7 @@ ai-kanjia/
 
 | 版本 | 阶段 | 核心能力 |
 |------|------|---------|
-| **v1.0** | ✅ 已上线 | 话术驱动的旺旺议价（马云体/Lucas体） |
+| **v1.0** | ✅ 已上线 | 话术驱动的旺旺议价（马云体） |
 | **v2.0** | 🔜 规划中 | Clean Sheet 成本拆解分析 |
 | **v2.5** | 🔜 规划中 | 上下游供应链分析 |
 | **v3.0** | 🔜 规划中 | Kraljic 矩阵策略分类 |
@@ -88,8 +88,6 @@ ai-kanjia/
 
 MIT License
 
-MIT License
-
 ---
 
-Made with ❤️ by WorkBuddy + kaku
+Made with ❤️ by [kaku](https://github.com/likaku)
