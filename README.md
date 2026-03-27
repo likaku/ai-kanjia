@@ -2,7 +2,7 @@
 
 > AI智能砍价助手 - 让每一次议价都更有感染力！
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/likaku/ai-kanjia/blob/main/LICENSE)
+[![Apache 2.0 License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
 [![GitHub Stars](https://img.shields.io/github/stars/likaku/ai-kanjia?style=social)](https://github.com/likaku/ai-kanjia)
 
@@ -192,7 +192,7 @@ ai-kanjia/
 
 ## 📜 License
 
-MIT License - 永久免费开源
+Apache License 2.0 - 永久免费开源
 
 ---
 
